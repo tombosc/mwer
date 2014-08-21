@@ -51,12 +51,12 @@ We can separate the whole process of MWE extraction in 2 phases. See *example.ma
 
 The turning point is the annotation of sampled candidates by a human expert. The steps before and after this steps are automatic.
 
-	$ make -f mwer_demo.make phase1
+	$ make -f example.make phase1
 
 Then annotate the file located at $(SAMPLED_C) (see *annotate_sample*).
 Then, type :
 
-	$ make -f mwer_demo.make phase2
+	$ make -f example.make phase2
 
 You should have the output of the test in $(TEST_RESULTS).
 
