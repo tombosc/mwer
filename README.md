@@ -9,6 +9,7 @@ Features
 * Filtering in certain context types
 * Available models : Logistic regression, LDA or SVM (and possibly everything in scikit-learn)
 * Gzip files support (I/O)
+* String interning
 
 Limitations
 -----------
